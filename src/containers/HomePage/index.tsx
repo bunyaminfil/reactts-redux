@@ -1,9 +1,12 @@
 import React from "react";
+import { ShopQuality } from "../../components/ShopQuality";
+import './style.css'
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>HomePage</h1>
+    <div className="homepage-container">
+      <div className="cover-image" />
+      <ShopQuality />
     </div>
   );
 };
